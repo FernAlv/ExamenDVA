@@ -1,0 +1,33 @@
+<resources>
+    <string name="app_name">Examen Dennis Veintimilla</string>
+    <string name="pelicula">Película</string>
+    <string name="actor">Actor</string>
+    <string name="details_btn">Detalles</string>
+    <string name="create_btn">Guardar</string>
+    <string name="create">Crear Actor</string>
+    <string name="list_btn">Listar Actores</string>
+    <string name="new_btn">Nuevo</string>
+    <string name="menu_edit">Editar</string>
+    <string name="menu_delete">Eliminar</string>
+    <string name="menu_share">Compartir</string>
+    <string name="details_actor">Detalles Actor</string>
+    <string name="create_actor">Creacion Actor</string>
+    <string name="edit_actor">Editar Actor</string>
+    <string name="details_movie">Detalles Película</string>
+    <string name="create_movie">Creacion Película</string>
+    <string name="edit_movie">Editar Película</string>
+    <string name="movie_listt">Lista Películas</string>
+    <string name="name">Nombres:</string>
+    <string name="last_name">Apellidos:</string>
+    <string name="fecha_nacimiento">Fecha Nacimiento:</string>
+    <string name="numero_peliculas">Numero Películas:</string>
+    <string name="retirado">Retirado?:</string>
+    <string name="idPelicula">Id Película:</string>
+    <string name="anioLanzamiento">Año de Lanzamiento:</string>
+    <string name="rating">Rating:</string>
+    <string name="actoresPrincipales">Actores Principales:</string>
+    <string name="sinopsis">Sinopsis:</string>
+    <string name="yes">Si</string>
+    <string name="no">No</string>
+    <string name="confirmation">Seguro desea eliminar?</string>
+</resources>

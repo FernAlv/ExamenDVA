@@ -1,0 +1,33 @@
+<resources>
+    <string name="app_name">Dennis Veintimilla\'s Exam</string>
+    <string name="pelicula">Movie</string>
+    <string name="actor">Actor</string>
+    <string name="details_btn">Details</string>
+    <string name="create_btn">Save</string>
+    <string name="create">Create Actor</string>
+    <string name="list_btn">List Actors</string>
+    <string name="new_btn">New</string>
+    <string name="menu_edit">Edit</string>
+    <string name="menu_delete">Delete</string>
+    <string name="menu_share">Share</string>
+    <string name="details_actor">Actor Details</string>
+    <string name="create_actor">Actor Creation</string>
+    <string name="edit_actor">Edit Actor</string>
+    <string name="details_movie">Movie Details</string>
+    <string name="create_movie">Movie Creation</string>
+    <string name="edit_movie">Edit Movies</string>
+    <string name="movie_listt">List Movies</string>
+    <string name="name">Name:</string>
+    <string name="last_name">Last Name:</string>
+    <string name="fecha_nacimiento">Date of Birth:</string>
+    <string name="numero_peliculas">Number of Movies:</string>
+    <string name="retirado">Retired?:</string>
+    <string name="idPelicula">Movie Id:</string>
+    <string name="anioLanzamiento">Release Year:</string>
+    <string name="rating">Rating:</string>
+    <string name="actoresPrincipales">Main Actors:</string>
+    <string name="sinopsis">Synopsis:</string>
+    <string name="yes">Yes</string>
+    <string name="no">No</string>
+    <string name="confirmation">Are you sure you want to delete it?</string>
+</resources>
