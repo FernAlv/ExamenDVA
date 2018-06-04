@@ -3,7 +3,7 @@ package com.example.dennisveintimilla.examenimovilesveintimilladennis
 import android.support.v7.app.AppCompatActivity
 import android.os.Bundle
 import android.view.View
-import kotlinx.android.synthetic.main.activity_create_book.*
+import kotlinx.android.synthetic.main.activity_create_movie.*
 
 class CreateMovieActivity : AppCompatActivity() {
 
@@ -14,7 +14,7 @@ class CreateMovieActivity : AppCompatActivity() {
 
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
-        setContentView(R.layout.activity_create_book)
+        setContentView(R.layout.activity_create_movie)
 
         val type = intent.getStringExtra("tipo")
 

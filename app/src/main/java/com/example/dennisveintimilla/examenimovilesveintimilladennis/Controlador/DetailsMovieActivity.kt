@@ -3,7 +3,7 @@ package com.example.dennisveintimilla.examenimovilesveintimilladennis
 import android.support.v7.app.AppCompatActivity
 import android.os.Bundle
 import com.example.dennisveintimilla.examenimovilesveintimilladennis.R
-import kotlinx.android.synthetic.main.activity_details_book.*
+import kotlinx.android.synthetic.main.activity_details_movie.*
 
 class DetailsMovieActivity : AppCompatActivity() {
 
@@ -11,7 +11,7 @@ class DetailsMovieActivity : AppCompatActivity() {
 
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
-        setContentView(R.layout.activity_details_book)
+        setContentView(R.layout.activity_details_movie)
 
         libro = intent.getParcelableExtra("libro")
 
