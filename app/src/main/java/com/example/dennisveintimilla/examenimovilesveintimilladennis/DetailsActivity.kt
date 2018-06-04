@@ -22,7 +22,7 @@ class DetailsActivity : AppCompatActivity() {
         super.onCreate(savedInstanceState)
         setContentView(R.layout.activity_details)
 
-        actor = intent.getParcelableExtra("autor")
+        actor = intent.getParcelableExtra("actor")
 
         txtShowNombresActor.text = actor?.nombres
         txtShowApellidosActor.text = actor?.apellidos
@@ -50,7 +50,7 @@ class DetailsActivity : AppCompatActivity() {
     fun crearPelicula() {
         val intent = Intent(this, CreateMovieActivity::class.java)
         intent.putExtra("tipo", "Create")
-        intent.putExtra("idAutor", actor?.id!!)
+        intent.putExtra("idActor", actor?.id!!)
         startActivity(intent)
     }
 
@@ -70,7 +70,7 @@ class DetailsActivity : AppCompatActivity() {
             R.id.item_menu_editar -> {
                 val intent = Intent(this, CreateMovieActivity::class.java)
                 intent.putExtra("tipo", "Edit")
-                intent.putExtra("libro", pelicula)
+                intent.putExtra("pelicula", pelicula)
                 startActivity(intent)
                 return true
             }

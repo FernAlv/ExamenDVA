@@ -1,4 +1,4 @@
-package dennisveintimilla.examenimovilesveintimilladennis
+package com.example.dennisveintimilla.examenimovilesveintimilladennis
 
 import android.content.Intent
 import android.support.v7.app.AppCompatActivity
